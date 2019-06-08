@@ -1,0 +1,8 @@
+TASK-when we start a linux system the screen will show the files/directories in download folder.
+SOLUTION- 
+1) Open home and press ctrl+H to show the hidden files.
+2) Now open the .config folder
+3) Then open user-dirs.dirs file.
+4) Now you will get this statement "XDG_DESKTOP_DIR="$HOME/Desktop"".in this statement replace 'desktop'  with 'downloads'
+5) Then at last reboot your system.
+  
