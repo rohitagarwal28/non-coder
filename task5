@@ -1,0 +1,9 @@
+TASK- How to check the list of added user in the group.
+SOLUTION- We can check the list of added users in a group by many commands -->
+METHOD 1- By using /etc/group file:
+          Use the grep command as follows:
+          $ grep 'grpup-name-here' /etc/group
+          $ grep 'ftponly' /etc/group
+          $ grep -i --color 'ftponly' /etc/group 
+METHOS 2- By using members command:
+          $ members ftponly
