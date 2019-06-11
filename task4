@@ -1,0 +1,4 @@
+TASK- How to add multiple user in grp in a single command.
+SOLUTION- 
+STEP-1 : First create a group by following command --> sudo groupadd mygroup
+STEP-2 : Now for creating multiple users in a single group write the following command --> sudo usermod -a -G mygroup userA userB userC
