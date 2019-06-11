@@ -1,0 +1,23 @@
+ASK-The application (firefox) should be open by terminal but not graphically (i.e by clicking on the icon)
+
+SOLUTION- 
+
+ 1) First go to computer/usr/bin.
+
+ 2) Search for firefox.sh
+
+ 3) Cut this file from the present location and paste it in some other folder (e.g-Downloads) 
+
+ 4) Now go to home/.bashrc
+
+ 5) Now add a path given below at the end of file:   
+
+      PATH=$PATH:$Home/Downloads/
+
+      export PATH
+
+
+
+ 6) Now save the file.
+
+ 7) Open terminal and type firefox. the firefox browser will open and if you will try to open by clicking on the icon,it will not open.
