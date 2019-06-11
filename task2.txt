@@ -1,4 +1,4 @@
-ASK-The application (firefox) should be open by terminal but not graphically (i.e by clicking on the icon)
+TASK-The application (firefox) should be open by terminal but not graphically (i.e by clicking on the icon)
 
 SOLUTION- 
 
