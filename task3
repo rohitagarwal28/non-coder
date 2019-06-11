@@ -1,0 +1,5 @@
+TASK- Create multiple folders in window at one time.
+SOLUTION-
+STEP-1 : open command prompt.
+STEP-2 : Go to the locatiion where you want to create folders.
+STEP-3 : Write the following command --> for /l %a in (1,1,10) do mkdir folder_name%a
